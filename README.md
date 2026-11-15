@@ -26,6 +26,12 @@
 
 ## 常用操作
 
+
+# 分支开发流程（合并走 PR + merge commit）
+git checkout main && git pull
+git checkout -b feat/xxx     # 新分支开发
+# ...修改、提交...
+git push -u origin feat/xxx  # 推远端 → GitHub 开 PR → CI 通过后 merge commit 合并
 ```bash
 # 游戏版本更新后的完整刷新
 node guides/generate.mjs && node guides/generate-laws.mjs && node guides/generate-ideologies.mjs \

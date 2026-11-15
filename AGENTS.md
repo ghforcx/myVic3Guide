@@ -52,3 +52,10 @@
 改动 → 跑生成脚本 → `node serve.mjs` 本地验证（HTTP 200 + 关键内容抽查）→ 中文一行式 commit（写清改了什么、数据口径是什么）。
 
 提交时 lefthook（`lefthook.yml`）自动运行两个守卫：`scripts/check-region-lists.mjs`（地区列表必须行内「、」排列）与 `tools/check-tabs.mjs`（页签注册）；手动跑：`npx -y lefthook run pre-commit`。
+
+## 分支与合并规范
+
+- **开发分支**：修改一律从 `main` 拉新分支（如 `feat/xxx`、`fix/xxx`），不在 `main` 上直接提交
+- **合并走 PR**：分支开发完成后推到远端，开 Pull Request 到 `main`；CI（守卫三件套 + 部署闸门）通过后合并
+- **合并提交**：PR 使用 merge commit（非 squash / rebase），保留分支拓扑
+- 本地 `master` 跟踪远端 `main`；PR 合并后删除开发分支
