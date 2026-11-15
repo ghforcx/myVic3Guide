@@ -1,0 +1,41 @@
+# 发布流水线：push 到 master → 三守卫检查 → 同步部署目录 → 部署 Cloudflare Workers 静态资产
+# 需要在 GitHub 仓库 Secrets 配置：
+#   CLOUDFLARE_API_TOKEN   —— Cloudflare 控制台「My Profile → API Tokens」创建，
+#                            模板选 "Deploy a Worker"（含 Workers Scripts:Edit + Account Settings:Read）
+#   CLOUDFLARE_ACCOUNT_ID  —— Cloudflare 控制台右侧栏「Account ID」
+name: Deploy to Cloudflare
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 本地守卫三件套（解码残留 / 地区列表行内 / 页签注册）
+        run: |
+          node tools/check-decode-residue.mjs
+          node tools/check-region-lists.mjs
+          node tools/check-tabs.mjs
+
+      - name: 同步部署目录（排除本地专用文件与超 CF 25MiB 上限的大图）
+        run: node deploy/sync.mjs deploy/site
+
+      - name: 检查部署密钥
+        id: keys
+        run: echo "has=${{ secrets.CLOUDFLARE_API_TOKEN != '' && secrets.CLOUDFLARE_ACCOUNT_ID != '' }}" >> "$GITHUB_OUTPUT"
+
+      - name: 部署 Workers 静态资产（未配 Secrets 时跳过；配置后自动生效）
+        if: steps.keys.outputs.has == 'true'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: deploy

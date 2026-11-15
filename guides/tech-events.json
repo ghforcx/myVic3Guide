@@ -1,0 +1,264 @@
+{
+ "_comment": "科技进度事件：自动提取自 Victoria 3 1.13 游戏事件文件（game/events）+ 简中本地化；另含使能类备注。",
+ "entries": [
+  {
+   "tech": "mutual_funds",
+   "eventId": "society_tech_events.105（使能）",
+   "title": "公开交易生产方式",
+   "text": "研发共同基金后，可将所有金融区的生产方式切换为「公开交易」；此后月度事件「互惠互利」会提供「国际汇率标准」研发进度 +6000。",
+   "source": "游戏事件 society_tech_events.105（Victoria 3 1.13）"
+  },
+  {
+   "tech": "central_archives",
+   "eventId": "1848.5",
+   "title": "激进主义者在门外",
+   "text": "激进主义运动正在变得流行，失控，暴力。革命的呼声在街上回荡。或许有必要采取极端措施。（研发进度 +3500）",
+   "source": "游戏事件 1848.5（Victoria 3 1.13）"
+  },
+  {
+   "tech": "political_agitation",
+   "eventId": "historical_agitators.16",
+   "title": "破坏：一种创造性的冲动",
+   "text": "该地最近出版了《论暴力》，表明他与激进左派结盟，并与正统的社会主义理论决裂。（研发进度 +5000）",
+   "source": "游戏事件 historical_agitators.16（Victoria 3 1.13）"
+  },
+  {
+   "tech": "pasteurization",
+   "eventId": "silkworm_diseases.2",
+   "title": "[SCOPE.sState('pebrine_state').GetName]蚕病爆发",
+   "text": "持续的蚕病爆发已蔓延至该地的该地。这种疾病通过[ROOT.GetCountry.GetAdjective]的蚕场迅速传播，给丝绸产业带来日益增长的危险。（研发进度 +4000）",
+   "source": "游戏事件 silkworm_diseases.2（Victoria 3 1.13）"
+  },
+  {
+   "tech": "art_silk",
+   "eventId": "silkworm_diseases.5",
+   "title": "合成方案",
+   "text": "该地的代表团体请求国家投资开发一种合成丝绸的工艺，以此替代千疮百孔的蚕业。（研发进度 +4000）",
+   "source": "游戏事件 silkworm_diseases.5（Victoria 3 1.13）"
+  },
+  {
+   "tech": "philosophical_pragmatism",
+   "eventId": "positivism.1",
+   "title": "崇敬人类",
+   "text": "该地综合理工大学的一位精通各门科学的大学问家该地发表了一篇关于按照实证主义原则进行社会重组的论文。（研发进度 +4150）",
+   "source": "游戏事件 positivism.1（Victoria 3 1.13）"
+  },
+  {
+   "tech": "modern_sewerage",
+   "eventId": "cholera.1",
+   "title": "论霍乱的传播方式",
+   "text": "天才外科医生兼药剂师约翰·斯诺追踪到了该地霍乱疫情的源头。这引发了公共卫生领域的巨大进步。（研发进度 +3500/3500）",
+   "source": "游戏事件 cholera.1（Victoria 3 1.13）"
+  },
+  {
+   "tech": "handcranked_machine_gun",
+   "eventId": "commander_events.5",
+   "title": "进步之战",
+   "text": "该地已经研究出如何改进#bold 连发器#!。（研发进度 +4150/6000）",
+   "source": "游戏事件 commander_events.5（Victoria 3 1.13）"
+  },
+  {
+   "tech": "wargaming",
+   "eventId": "decree_events.107",
+   "title": "训练取得成效",
+   "text": "看来我们的额外训练取得了成效。该地的部队已将他们的训练付诸实践，并学会了一些新战术，在战争中应该很有用。（研发进度 +6000/5850/5850）",
+   "source": "游戏事件 decree_events.107（Victoria 3 1.13）"
+  },
+  {
+   "tech": "democracy",
+   "eventId": "ig_suppression_events.1000",
+   "title": "负面文章",
+   "text": "我们雇佣了一些无良记者来撰写针对该地的谴责性文章，损害他们的声誉。（研发进度 +2500/3500）",
+   "source": "游戏事件 ig_suppression_events.1000（Victoria 3 1.13）"
+  },
+  {
+   "tech": "democracy",
+   "eventId": "ig_suppression_events.1001",
+   "title": "友好的引导",
+   "text": "通过恐吓该地的成员，我们可以让那些积极支持他们的人前途黯淡。（研发进度 +2500/2500）",
+   "source": "游戏事件 ig_suppression_events.1001（Victoria 3 1.13）"
+  },
+  {
+   "tech": "civilizing_mission",
+   "eventId": "iwakura_mission.8",
+   "title": "另一半世界",
+   "text": "在返回[ROOT.GetCountry.GetName]途中，[ROOT.Var('expedition_leader_storage_var').GetCharacter.GetLastName]使节团在该地殖民地该地停留。使节团花费数日观察欧洲殖民社会以及当地的[GetReligion('theravada').GetNameNoIcon]信仰活动。（研发进度 +4150）",
+   "source": "游戏事件 iwakura_mission.8（Victoria 3 1.13）"
+  },
+  {
+   "tech": "railways",
+   "eventId": "meiji.7",
+   "title": "铁路顾问",
+   "text": "为了更快实现我们建设铁路网的雄心，有人建议从拥有铁路系统的国家邀请外国顾问来帮助我们。（研发进度 +3500/3500/3500）",
+   "source": "游戏事件 meiji.7（Victoria 3 1.13）"
+  },
+  {
+   "tech": "philosophical_pragmatism",
+   "eventId": "psychology_events.6",
+   "title": "哲学研究杂志",
+   "text": "该地该地哲学系的成员签署了一份正式请愿书，希望政府能资助他们的新项目：一份科学杂志。（研发进度 +4150/6000）",
+   "source": "游戏事件 psychology_events.6（Victoria 3 1.13）"
+  },
+  {
+   "tech": "medical_degrees",
+   "eventId": "lobby_events.57",
+   "title": "医学进展",
+   "text": "该地的成员对该地在医学方面取得的进步印象深刻。他们迫切想复刻该地的医学创新。（研发进度 +2500/3500/3500/5000/5850）",
+   "source": "游戏事件 lobby_events.57（Victoria 3 1.13）"
+  },
+  {
+   "tech": "film",
+   "eventId": "camera_film_pm_events.1",
+   "title": "捕光捉影",
+   "text": "对摄影艺术的兴趣席卷了[ROOT.GetCountry.GetName]，出现了许多实验性应用这种科技的全新艺术运动。（研发进度 +6000）",
+   "source": "游戏事件 camera_film_pm_events.1（Victoria 3 1.13）"
+  },
+  {
+   "tech": "mass_propaganda",
+   "eventId": "camera_film_pm_events.2",
+   "title": "会动的画",
+   "text": "胶片记录设备的获取和[ROOT.GetCountry.GetName]全国范围内电影剧院的建立，使得新生的电影工业开始在该国扎根。（研发进度 +5850）",
+   "source": "游戏事件 camera_film_pm_events.2（Victoria 3 1.13）"
+  },
+  {
+   "tech": "repeaters",
+   "eventId": "military_tech_events.401",
+   "title": "兵工厂现代化",
+   "text": "该地该地从大规模生产滑膛枪到大规模生产步枪的转变，迎来了[ROOT.GetCountry.GetNameNoFormatting]该地生产的新时代。（研发进度 +4150）",
+   "source": "游戏事件 military_tech_events.401（Victoria 3 1.13）"
+  },
+  {
+   "tech": "vulcanization",
+   "eventId": "production_tech_events.1",
+   "title": "橡胶繁荣",
+   "text": "该地最近的该地扩建工程取得了极其显著的成果。[ROOT.GetCountry.GetName]恐将主导全世界的橡胶生产。（研发进度 +4150）",
+   "source": "游戏事件 production_tech_events.1（Victoria 3 1.13）"
+  },
+  {
+   "tech": "plastics",
+   "eventId": "production_tech_events.200",
+   "title": "塑料生产",
+   "text": "我国玻璃厂改为生产塑料，必将对工业掀起一场革命。（研发进度 +6000）",
+   "source": "游戏事件 production_tech_events.200（Victoria 3 1.13）"
+  },
+  {
+   "tech": "radio",
+   "eventId": "production_tech_events.210",
+   "title": "无线电生产",
+   "text": "我国工厂的无线电生产导致就业和利润大增。（研发进度 +6000）",
+   "source": "游戏事件 production_tech_events.210（Victoria 3 1.13）"
+  },
+  {
+   "tech": "radio",
+   "eventId": "production_tech_events.300",
+   "title": "你也听到了？",
+   "text": "电话的发明打开了极大改进我国通讯业……或是我国电力产业的大门。（研发进度 +6000）",
+   "source": "游戏事件 production_tech_events.300（Victoria 3 1.13）"
+  },
+  {
+   "tech": "combustion_engine",
+   "eventId": "production_tech_events.401",
+   "title": "蓬勃发展的石油业",
+   "text": "该地该地的新近扩建提振了信心，人们相信[ROOT.GetCountry.GetName]在未来会成为一个石油供给国。（研发进度 +5850）",
+   "source": "游戏事件 production_tech_events.401（Victoria 3 1.13）"
+  },
+  {
+   "tech": "electric_railway",
+   "eventId": "production_tech_events.402",
+   "title": "电力的稳定供应",
+   "text": "该地该地新近的扩建，激发了人们对于未来[ROOT.GetCountry.GetName]全面电气化的信心。（研发进度 +6000/6000/4150）",
+   "source": "游戏事件 production_tech_events.402（Victoria 3 1.13）"
+  },
+  {
+   "tech": "steel_railway_cars",
+   "eventId": "production_tech_events.501",
+   "title": "铁路繁荣",
+   "text": "从铁路干线逐渐延伸开来的铁路支线，对于我们日渐蓬勃的铁路工业有无可比拟的价值。（研发进度 +4150）",
+   "source": "游戏事件 production_tech_events.501（Victoria 3 1.13）"
+  },
+  {
+   "tech": "railways",
+   "eventId": "production_tech_events.601",
+   "title": "大气式蒸汽机",
+   "text": "在采矿产业广泛使用大气式蒸汽机之后，产能达到了空前的水平。（研发进度 +3500/3500）",
+   "source": "游戏事件 production_tech_events.601（Victoria 3 1.13）"
+  },
+  {
+   "tech": "steel_railway_cars",
+   "eventId": "production_tech_events.700",
+   "title": "进步的引擎",
+   "text": "得益于我们在火车头领域的正确投资，该地的蒸汽机产业开始变得有利可图。这些发动机已经被部署至[ROOT.GetCountry.GetAdjectiveNoFormatting]新铁路线上。（研发进度 +4150）",
+   "source": "游戏事件 production_tech_events.700（Victoria 3 1.13）"
+  },
+  {
+   "tech": "international_exchange_standards",
+   "eventId": "society_tech_events.105",
+   "title": "互惠互利",
+   "text": "现在我们有了更多的公开招股公司，我们应该关注接下来会发生什么。（研发进度 +6000）",
+   "source": "游戏事件 society_tech_events.105（Victoria 3 1.13）"
+  },
+  {
+   "tech": "realism",
+   "eventId": "society_tech_events.302",
+   "title": "这不浪漫吗？",
+   "text": "该地的该地对浪漫主义运动的兴趣越来越浓厚，我们的一些最伟大的艺术家创造出了真正的杰作。（研发进度 +3500）",
+   "source": "游戏事件 society_tech_events.302（Victoria 3 1.13）"
+  },
+  {
+   "tech": "identification_documents",
+   "eventId": "dan_society_tech_events.1",
+   "title": "档案柜",
+   "text": "该地开始大规模地使用档案柜，极大地提高了国家官僚机构的效率。（研发进度 +4150）",
+   "source": "游戏事件 dan_society_tech_events.1（Victoria 3 1.13）"
+  },
+  {
+   "tech": "socialism",
+   "eventId": "dt_society_events.1",
+   "title": "哲学系",
+   "text": "我们已经为所有高等院校的哲学系提供了资金。该地的该地选择将这笔资金集中用于推进黑格尔辩证法上。（研发进度 +4150/4150）",
+   "source": "游戏事件 dt_society_events.1（Victoria 3 1.13）"
+  },
+  {
+   "tech": "camera",
+   "eventId": "dt_society_events.2",
+   "title": "现实主义运动",
+   "text": "该地的该地已成为现实主义运动的重要中心，产出着我们这个时代最优秀的作品。（研发进度 +4150）",
+   "source": "游戏事件 dt_society_events.2（Victoria 3 1.13）"
+  },
+  {
+   "tech": "empiricism",
+   "eventId": "dt_society_events.3",
+   "title": "高等教育",
+   "text": "[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle][ROOT.GetCountry.GetRuler.GetHerselfHimself]正式开放了该地的该地。[ROOT.GetCountry.GetName]的学术界开始蓬勃发展。（研发进度 +2500/2500）",
+   "source": "游戏事件 dt_society_events.3（Victoria 3 1.13）"
+  },
+  {
+   "tech": "defense_in_depth",
+   "eventId": "trench_warfare.1",
+   "title": "堑壕前线",
+   "text": "该地在该地对堑壕的大量使用将这片土地变成了地狱。僵局不会永远持续下去，但目前还不清楚前进的最佳道路是什么。（研发进度 +6000/8000）",
+   "source": "游戏事件 trench_warfare.1（Victoria 3 1.13）"
+  },
+  {
+   "tech": "rifling",
+   "eventId": "war_crimes.2",
+   "title": "军火贸易",
+   "text": "该地该地的建立确保了[ROOT.GetCountry.GetNameNoFlag]该地的充足供应。（研发进度 +3500）",
+   "source": "游戏事件 war_crimes.2（Victoria 3 1.13）"
+  },
+  {
+   "tech": "gunsmithing",
+   "eventId": "trade_route_events.2",
+   "title": "借用设计",
+   "text": "我们从该地进口的更先进的武器，应该能为我们目前的军事研究项目提供一些有价值的见解。（研发进度 +2500/3500/3500/4150/6000）",
+   "source": "游戏事件 trade_route_events.2（Victoria 3 1.13）"
+  },
+  {
+   "tech": "antibiotics",
+   "eventId": "vampire_panic.1",
+   "title": "奇怪的迷信",
+   "text": "据报道，一种奇怪的疾病困扰着该地卡伦家族的成员。当地人已开始掘出死者的尸体，想要阻止所谓的“诅咒”。（研发进度 +5850）",
+   "source": "游戏事件 vampire_panic.1（Victoria 3 1.13）"
+  }
+ ]
+}

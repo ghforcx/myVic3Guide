@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vicdata 人群政治 · 激进派与革命</title>
+<style>
+  :root{--parchment:#f0e4c8;--parchment-2:#f7eed9;--parchment-dark:#e6d5ae;--ink:#3b2f1e;--ink-soft:#6b5a3e;--gold:#8a6d3b;--gold-bright:#b8933f;--red:#8c3b2e;--line:#c9b48a;}
+  *{box-sizing:border-box}
+  body{margin:0;color:var(--ink);font-family:"Times New Roman","Source Han Serif SC","Noto Serif CJK SC","思源宋体","Songti SC",serif;
+    background:radial-gradient(ellipse 120% 90% at 50% 0%, rgba(255,250,235,.75), rgba(240,228,200,0) 60%),
+      repeating-linear-gradient(0deg, rgba(160,130,90,.045) 0 2px, rgba(160,130,90,0) 2px 4px), var(--parchment);}
+  .wrap{max-width:1080px;margin:0 auto;padding:26px 18px 80px}
+  .wrap-wide{max-width:1240px}
+  header.top{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;border-bottom:3px double var(--gold);padding-bottom:14px;margin-bottom:8px}
+  header.top h1{margin:0;font-size:30px;letter-spacing:2px}
+  .top-row{display:flex;flex-wrap:wrap;align-items:baseline;gap:12px;flex:1}
+  .refs{font-size:12px;color:var(--ink-soft);display:flex;gap:8px;flex-wrap:wrap;align-items:center;max-width:460px;justify-content:flex-end}
+  .refs a{color:var(--gold);text-decoration:none;border-bottom:1px dashed var(--line);white-space:nowrap}
+  .refs .refs-label{white-space:nowrap}
+  header.top .back{margin-left:auto;font-size:14px;color:var(--gold);text-decoration:none;border:1px solid var(--line);border-radius:6px;padding:5px 12px;background:var(--parchment-2);align-self:center}
+  header.top .back:hover{background:var(--parchment-dark)}
+  .lede{color:var(--ink-soft);margin:10px 0 0;font-size:14.5px}
+  nav.tabs{position:sticky;top:0;z-index:9;display:flex;gap:10px;flex-wrap:wrap;padding:10px 2px;background:linear-gradient(var(--parchment) 82%, rgba(240,228,200,0));}
+  nav.tabs a{color:var(--ink);text-decoration:none;border:1px solid var(--gold);border-radius:999px;padding:6px 18px;background:var(--parchment-2);font-weight:600}
+  nav.tabs a:hover{background:var(--parchment-dark)}
+  nav.tabs a.is-active{background:var(--gold);color:#fff;border-color:var(--gold)}
+  nav.tabs a.is-here{background:linear-gradient(90deg, var(--gold), var(--gold-bright));color:#fff;border-color:var(--gold)}
+
+
+  .sec{margin:26px 0}
+  .hint{font-size:13.5px;color:var(--ink-soft);background:var(--parchment-2);border:1px solid var(--line);border-radius:8px;padding:12px 16px;line-height:1.8}
+  table.pl-table{width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0}
+  table.pl-table th,table.pl-table td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+  table.pl-table th{background:var(--parchment-dark)}
+  .num{font-weight:700;color:var(--gold-bright);white-space:nowrap}
+  .en-key{color:var(--ink-soft);font-size:11.5px;font-family:"Times New Roman",serif;word-break:break-all}
+  .neg{color:var(--red)} .pos{color:#3d6b34}
+  pre.cw{background:var(--parchment);border:1px solid var(--line);border-radius:8px;padding:12px 14px;font-size:12px;overflow-x:auto;line-height:1.6}
+  details.cw-fold{border:1px solid var(--line);border-radius:10px;background:var(--parchment-2);margin:10px 0;padding:0}
+  details.cw-fold>summary{cursor:pointer;font-weight:600;padding:10px 14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="top-row">
+      <h1>Vicdata 人群政治</h1>
+      <nav class="refs"><span class="refs-label">参考资料：</span><a href="https://vic3.paradoxwikis.com/Victoria_3_Wiki" target="_blank" rel="noopener">Victoria 3 Wiki</a><a href="https://vic3.parawikis.com/wiki/%E9%A6%96%E9%A1%B5" target="_blank" rel="noopener">Parawikis</a><a href="https://forum.paradoxplaza.com/forum/forums/victoria-3.1095/" target="_blank" rel="noopener">官方论坛</a><a href="https://space.bilibili.com/3546875974126422" target="_blank" rel="noopener">B站官方账号</a></nav>
+    </div>
+    <a class="back" href="index.html">返回总览</a>
+    <p class="lede">激进派从哪来、怎么压，政治运动何时激进化，革命/内战如何爆发与避免。机制数值全部取自游戏文件（modifier 定义 / defines 常量 / 法律效果 / 内战触发脚本），官方中文名经概念引用解引用；带「经验」标记的段落是攻略性概括，其余为数据。</p>
+  </header>
+  <nav class="tabs">
+    <a href="index.html#achievements" class="tablink-ext">成就指南</a>
+    <a href="laws.html" class="tablink-ext">法律指南</a>
+    <a href="ideologies.html" class="tablink-ext">意识形态</a>
+    <a href="states.html" class="tablink-ext">州名</a>
+    <a href="#politics-top" class="tablink-ext is-here" aria-current="page">人群政治</a>
+    <a href="index.html#companies" class="tablink-ext">公司经营</a>
+    <a href="index.html#tech" class="tablink-ext">科技</a>
+    <a href="calculator.html" class="tablink-ext">建筑</a>
+    <a href="index.html#events" class="tablink-ext">事件</a>
+    <a href="calculator.html" class="tablink-ext">计算器</a>
+  </nav>
+  <a id="politics-top"></a>
+
+  <div class="sec">
+    <h2>激进派从哪来</h2>
+    <p class="hint">游戏内每个来源都有对应的 modifier（加成/惩罚可叠乘），官方名称如下。核心记忆法：<b>预期落空产激进，预期兑现产忠诚</b>——生活水平涨了再跌、被歧视、被征服，都算落空。</p>
+    <table class="pl-table"><thead><tr><th>来源（官方中文名）</th><th>modifier 键</th><th>触发场景</th></tr></thead><tbody><tr><td>生活水平变化产生的激进派和效忠派</td><td><span class="en-key">state_radicals_and_loyalists_from_sol_change_mult</span></td><td>生活水平下降：预期落空是激进派最大的日常来源；上升则产生忠诚派</td></tr><tr><td>低合法性导致的激进派</td><td><span class="en-key">country_radicals_from_legitimacy_mult</span></td><td>政权合法性低（如非法政府、政变后）持续产出激进派</td></tr><tr><td>征服导致的激进派</td><td><span class="en-key">country_radicals_from_conquest_mult</span></td><td>武力征服新州：被征服人口按比例转为激进派</td></tr><tr><td>来自政治运动的激进派</td><td><span class="en-key">state_radicals_from_political_movements_mult</span></td><td>政治运动激进化后向支持者扩散（见下表运动机制）</td></tr><tr><td>国有化的激进派</td><td><span class="en-key">building_nationalization_radicals_mult</span></td><td>建筑被国有化时，原属主 pop 转为激进派</td></tr><tr><td>open_prejudice地位的激进度提高</td><td><span class="en-key">country_radicalism_increases_open_prejudice_mult</span></td><td>恶性循环反馈：激进派积累反过来推高歧视等级（公开偏见/文化抹除等），此系数控制反馈强度</td></tr></tbody></table>
+  </div>
+
+  <div class="sec">
+    <h2>怎么压：数值手段</h2>
+    <p class="hint">四条路：<b>①法律压制</b>（下表，国内安全/治安类法律直接降低运动激进度或来源产出）；<b>②拉生活水平</b>（来源机制的逆运算，涨生活水平产忠诚派）；<b>③让运动赢</b>（其支持的立法通过时 25% 支持者转忠诚派，见下表常量）；<b>④镇压/扶持</b>（不直接改变激进度，但改变运动的政治力量——镇压不产生激进度是官方设定）。表中数值为游戏 modifier 原值（加算 add 为百分点小数、乘算 mult 为比例，正负号与游戏内一致）。</p>
+    <table class="pl-table"><thead><tr><th>法律（点击跳转法律页）</th><th>效果（官方中文名）</th><th>数值</th></tr></thead><tbody><tr><td><a href="laws.html#law_okhrana">暗探局</a></td><td>政治运动活跃度</td><td class="num neg">-0.05</td></tr><tr><td><a href="laws.html#law_subjecthood">臣民身份</a></td><td>violent_hostility地位的激进度提高</td><td class="num pos">0.2</td></tr><tr><td><a href="laws.html#law_subjecthood">臣民身份</a></td><td>cultural_erasure地位的激进度提高</td><td class="num pos">0.1</td></tr><tr><td><a href="laws.html#law_local_police">地方警察部队</a></td><td>动乱的效果</td><td class="num neg">-0.05</td></tr><tr><td><a href="laws.html#law_third_section">第三办公厅</a></td><td>政治运动活跃度</td><td class="num neg">-0.03</td></tr><tr><td><a href="laws.html#law_corporatized_unions">法团化工会</a></td><td>生活水平变化产生的激进派和效忠派</td><td class="num pos">0.15</td></tr><tr><td><a href="laws.html#law_extraordinary_commission">非常委员会</a></td><td>政治运动活跃度</td><td class="num neg">-0.05</td></tr><tr><td><a href="laws.html#law_official_nationality">官方民族性</a></td><td>violent_hostility地位的激进度提高</td><td class="num pos">0.2</td></tr><tr><td><a href="laws.html#law_official_nationality">官方民族性</a></td><td>cultural_erasure地位的激进度提高</td><td class="num pos">0.1</td></tr><tr><td><a href="laws.html#law_national_guard">国民警卫队</a></td><td>政治运动活跃度</td><td class="num neg">-0.03</td></tr><tr><td><a href="laws.html#law_militarized_police">军事化警察部队</a></td><td>turmoil_mult</td><td class="num pos">0.004</td></tr><tr><td><a href="laws.html#law_secret_police">秘密警察</a></td><td>政治运动活跃度</td><td class="num neg">-0.05</td></tr><tr><td><a href="laws.html#law_national_supremacy">民族至上</a></td><td>violent_hostility地位的激进度提高</td><td class="num pos">0.2</td></tr><tr><td><a href="laws.html#law_national_supremacy">民族至上</a></td><td>cultural_erasure地位的激进度提高</td><td class="num pos">0.1</td></tr><tr><td><a href="laws.html#law_national_supremacy">民族至上</a></td><td>full_acceptance地位的激进度提高</td><td class="num neg">-0.1</td></tr><tr><td><a href="laws.html#law_affirmative_action">平权法案</a></td><td>full_acceptance地位的激进度提高</td><td class="num pos">0.2</td></tr><tr><td><a href="laws.html#law_shinsengumi">新选组</a></td><td>政治运动活跃度</td><td class="num neg">-0.05</td></tr><tr><td><a href="laws.html#law_ethnostate">族裔国家</a></td><td>violent_hostility地位的激进度提高</td><td class="num pos">0.33</td></tr><tr><td><a href="laws.html#law_ethnostate">族裔国家</a></td><td>cultural_erasure地位的激进度提高</td><td class="num pos">0.2</td></tr><tr><td><a href="laws.html#law_ethnostate">族裔国家</a></td><td>second_rate_citizen地位的激进度提高</td><td class="num neg">-0.1</td></tr><tr><td><a href="laws.html#law_ethnostate">族裔国家</a></td><td>full_acceptance地位的激进度提高</td><td class="num neg">-0.2</td></tr></tbody></table>
+    <p class="hint">利益集团层面：政治力量全为忠诚派时支持度 +15，全为激进派时 −15（利益集团政治力量 100% 为忠诚派时的支持度加成=<b class="num pos">15</b>、利益集团政治力量 100% 为激进派时的支持度惩罚=<b class="num neg">-15</b>）。</p>
+  </div>
+
+  <div class="sec">
+    <h2>政治运动：激进化数值表</h2>
+    <p class="hint">政治运动是激进派的放大器：运动激进度每周向目标值靠拢，超过 <b>0.5</b> 后支持者按月激进化（每月 0.5%～2.5%）。立法是最强的激进度操纵杆——开始立法立即施加 50% 目标冲击，取消则 −50% 降温；立法通过则四分之一支持者直接转忠诚派。</p>
+    <table class="pl-table"><thead><tr><th>常量</th><th>值</th><th>含义</th></tr></thead><tbody><tr><td><span class="en-key">MOVEMENT_WEEKLY_RADICALISM_CHANGE</span></td><td class="num pos">0.01</td><td>运动激进度每周向目标值靠拢的比例</td></tr><tr><td><span class="en-key">MOVEMENT_MONTHLY_RADICALS_THRESHOLD</span></td><td class="num pos">0.5</td><td>激进度超过该值后，支持者开始按月激进化的门槛</td></tr><tr><td><span class="en-key">MOVEMENT_MONTHLY_RADICALS_SCALING_MIN</span></td><td class="num pos">0.005</td><td>月度激进化比例下限（占支持者）</td></tr><tr><td><span class="en-key">MOVEMENT_MONTHLY_RADICALS_SCALING_MAX</span></td><td class="num pos">0.025</td><td>月度激进化比例上限</td></tr><tr><td><span class="en-key">MOVEMENT_LOYALISTS_ON_APPROVED_ENACTMENT</span></td><td class="num pos">0.25</td><td>运动支持的立法通过时，支持者转为忠诚派的比例</td></tr><tr><td><span class="en-key">MOVEMENT_IMMEDIATE_RADICALISM_FROM_ENACTMENT</span></td><td class="num pos">0.5</td><td>开始立法时立即施加的激进度冲击系数</td></tr><tr><td><span class="en-key">MOVEMENT_IMMEDIATE_RADICALISM_FROM_CANCELLATION</span></td><td class="num neg">-0.5</td><td>取消立法时的激进度冲击系数（负=降温）</td></tr><tr><td><span class="en-key">MOVEMENT_RADICALISM_FROM_ACTIVE_LAW_STANCE</span></td><td class="num neg">-0.05</td><td>对现行法律持正面立场的降温系数</td></tr><tr><td><span class="en-key">MOVEMENT_RADICALISM_FROM_ENACTED_LAW_STANCE</span></td><td class="num neg">-0.25</td><td>对已立法的立场降温系数</td></tr><tr><td><span class="en-key">MOVEMENT_RADICALISM_FROM_RADICAL_SUPPORTERS</span></td><td class="num pos">1.0</td><td>支持者中激进派占比的升温系数</td></tr><tr><td><span class="en-key">MOVEMENT_RADICALISM_FROM_LOYALIST_SUPPORTERS</span></td><td class="num neg">-0.75</td><td>支持者中忠诚派占比的降温系数</td></tr><tr><td><span class="en-key">MOVEMENT_RADICALISM_FROM_SUPPRESSION</span></td><td class="num pos">0.0</td><td>镇压运动的激进度影响（0＝镇压不直接产生激进度）</td></tr><tr><td><span class="en-key">MOVEMENT_RADICALISM_FROM_BOLSTERING</span></td><td class="num pos">0.0</td><td>扶持运动的激进度影响</td></tr></tbody></table>
+  </div>
+
+  <div class="sec">
+    <h2>革命与内战</h2>
+    <p class="hint"><b>（经验）链条</b>：激进派积累 → 加入利益集团/政治运动 → 运动激进化 → 爆发革命或内战。革命爆发时叛军集团内的激进派按 1.0 比例转为叛军兵力；结束后全体 pop 移除 50% 激进派（内战疲惫）；被镇压时战败集团再额外移除 25%。<b>避免的关键</b>：在革命进度条涨满前让运动降温（通过其支持的立法/提升生活水平/降低歧视），或直接镇压运动本身（镇压不增加激进度）。革命进度的涨速公式为引擎内置，游戏文件只公开以下常量与 tag 判定。</p>
+    <table class="pl-table"><thead><tr><th>常量</th><th>值</th><th>含义</th></tr></thead><tbody><tr><td><span class="en-key">REVOLUTION_START_REBEL_IG_RADICALS_REDUCED_PERCENTAGE</span></td><td class="num pos">1.0</td><td>革命爆发时叛军利益集团内激进派的转化比例（转为叛军兵力）</td></tr><tr><td><span class="en-key">REVOLUTION_ENDED_RADICAL_BASE_REMOVAL_PERCENTAGE</span></td><td class="num pos">0.5</td><td>革命/内战结束后全体 pop 移除激进派的基础比例（内战疲惫）</td></tr><tr><td><span class="en-key">REVOLUTION_LOST_REBEL_IG_RADICALS_REDUCED_PERCENTAGE</span></td><td class="num pos">0.25</td><td>革命被镇压时，战败利益集团额外移除激进派的比例</td></tr></tbody></table>
+    <details class="cw-fold"><summary>公开脚本：is_special_civil_war_tag（原文）</summary><pre class="cw">country_definition = cd:TPG</pre></details>
+  </div>
+
+  <div class="sec">
+    <h2>速查：激进派管理清单</h2>
+    <p class="hint"><b>（经验）</b>开局常见的激进派爆点：①税率拉满＋消费品不足（生活水平跌）；②歧视性公民权（多民族国家尤其大清/俄罗斯/奥斯曼）；③征服后的新州未消化；④立法反复横跳（运动激进度 ±50% 冲击）。对应解法在上一节四条路里都有数值支撑。深入的法律支持度/意识形态倾向请查 <a href="laws.html">法律指南</a> 与 <a href="ideologies.html">意识形态清单</a>。</p>
+  </div>
+</div>
+<script>
+(function () {
+  // 哈希直达：#law_xxx 无处理需求（本页无状态）
+})();
+</script>
+</body>
+</html>

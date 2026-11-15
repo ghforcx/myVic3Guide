@@ -1,0 +1,12 @@
+# 超过大文件上限的本地备份（25MiB 限制 / 仅本地保留）
+assets/map/flatmap__2.original.png
+assets/map/flatmap__2.png
+
+# 部署副本（deploy/sync.mjs 输出，本地重新生成即可，不入库）
+/site
+deploy/site
+
+# 临时文件
+*.tmp
+.DS_Store
+Thumbs.db

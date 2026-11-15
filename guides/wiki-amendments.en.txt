@@ -1,0 +1,175 @@
+﻿*   **Pro-Labor Bias**
+*   The nominating bodies for the state's corporate assembly are systematically biased towards labor associations and trade unions.*   **+15%** Trade Unions political strength*    Corporate State
+*    Social Monarchy*   The Nominating Bodies (**Debate**)
+*   **Pro-Employer Bias (Corporate State)**
+*   The nominating bodies for the state's corporate assembly are systematically biased towards employers' associations and industry.*   **+15%** Industrialists political strength
+*   **Pro-University Bias**
+*   The nominating bodies for the state's corporate assembly are systematically biased towards universities and academic societies.*   **+15%** Intelligentsia political strength
+*   **Ragged Schools**
+*   The school system is supplemented by religiously-run "ragged schools" oriented towards orphans and the children of poor, working parents.*    Compulsory Primary School*    Religious Schools*   Ragged Schools (**Advance**)
+*   **Religious Workhouses**
+*   Responsibility for the operation of workhouses has been delegated to religious authorities who seek the moral improvement of the inmates.*    Poor Laws*    Charity Hospitals*   Houses of Faith (**Advance**)
+*   **Veteran's Pensions**
+*   The welfare system provides a generous state pension to war widows and surviving veterans of the armed forces.*   **+10%** Welfare Payments
+*   **+15%** Training Rate*    Old Age Pension*   The Price of War (**Advance**)
+*   **Agricultural Communes**
+*   In rural areas, state power has been replaced by networks of autonomous agrarian communes which make use of novel agricultural techniques.*   **+5%** Agriculture throughput
+*   **+5%** Ranches throughput
+*   **+1** Agriculture Employee Standard of Living
+*   **+1** Ranching Employee Standard of Living*    Anarchy*   Mutual Aid (**Advance**)
+*   **Cult of Personality**
+*   Through their own natural charisma and the efforts of the state propaganda apparatus, the ruler has fostered a sizable personality cult.*    Autocracy
+*    Oligarchy
+*    Single-Party State*    Autocracy*   An Enthralling [Title] (**Advance**)
+*   **Farmers' Cooperatives**
+*   Beneficiaries of land reform tend to form federations of small agricultural cooperatives, limiting the ability for large enterprises to make inroads into the agricultural sector.*   **+10%** Minimum Worker-Owned Agriculture building levels
+*   **+10%** Minimum Worker-Owned Ranches building levels
+*   **鈭?0%** Farmers Investment Pool contribution efficiency*    Homesteading[1]*   Farmer's Co-op Champions [Law] (**Advance**)
+*   **Vertically Integrated Agriculture**
+*   The agricultural economy is characterized by certain large enterprises that maintain ownership of their entire supply chains.*    Commercialized Agriculture*    Interventionism*   Total Top-Down Management (**Advance**)
+*   **Sovereign of the Nation**
+*   The monarch derives legitimacy from nationalist ideology, styling themselves as the supreme representative of a given nation.*   **鈭?** Devout Approval
+*   **+10** Legitimacy based on government clout*    Monarchy
+*    Social Monarchy*    National Supremacy*   [Title] of the [Demonym] (**Advance**)
+*   **Malthusian Foundations**
+*   The welfare system is founded upon the implicit assumption that uncontrolled population growth will lead to catastrophic resource shortages. It seeks to discourage population growth amongst the lower classes.*   **鈭?%** Birth rate
+*   **鈭?0%** Political strength when receiving welfare*    Poor Laws*   The Principle of Population (**Debate**)
+*   **Pro-Employer Bias (Welfare)**
+*   Benefits offered by the welfare system are intentionally limited, with the intention to reduce the leverage of labor and swiftly return the unemployed to work.*   **鈭?%** Welfare payments
+*   **+10%** Industrialists political strength*    Wage Subsidies
+*    Old Age Pension*    No Social Security*   Unionized Leverage (**Debate**)
+*   **Religious Restrictions**
+*   The migration system denies long-term residence rights to those who follow certain foreign faiths.*   **+5** Migration Restrictiveness
+*   **鈭?** Acceptance from Religious Trait
+*   **鈭?** Acceptance from Religious Trait Groups
+*   **鈭?** Acceptance from no shared Religious Traits*    No Migration Controls
+*    Migration Controls*    State Religion*   Foreign Faiths (**Debate**)
+*   **Tariff Exemptions**
+*   To appease proponents of free trade, this law guarantees the free movement of goods鈥攊f not people.*   **鈭?0%** Maximum Tariffs on Imports*    Closed Borders
+*    Migration Controls*    No Migration Controls*   People and Goods (**Debate**)
+*   **Short-Term Tax Cuts**
+*   To ease the burden of the reformed tax system on taxpayers, the reform is accompanied by a series of tax reductions set to expire over time.*   **鈭?0%** Tax collection*    Proportional Taxation
+*    Graduated Taxation
+*    Per-Capita Taxation
+*    Land-Based Taxation*    Consumption-Based Taxation Conditions
+
+*   Neither:*   Taxation Is Theft (**Stall**)
+*   **Draconian Blasphemy Laws**
+*   The state maintains the death penalty for an array of religious crimes, granting religious authorities power over life and death.*   **+2%** Mortality
+*   **+25%** Radicals from Political Movements
+*   **+2%** Loan interest rate
+*   **+50** Authority*    Theocracy
+*    State Religion*    Theocracy*   The Blasphemy Laws (**Debate**)
+*   **Regulated Degenerate Art**
+*   Forms of art associated with discriminated minorities are strictly suppressed. In its place, the state promotes art with nationalistic and traditional themes.*    Ethnostate
+*    National Supremacy
+*    Racial Segregation
+*    Cultural Exclusion*    Censorship*   Cultural Contributions (**Debate**)
+*   **Prussian Education**
+*   The education system is organized with an eye towards fostering a disciplined and compliant citizenry.*   **+10%** Assimilation
+*   **+10%** Conscriptable Batallions
+*   **+10%** Armed Forces political strength*    Religious Schools
+*    Private Schools
+*    Public Schools*    Public Schools*   Discipline and Punish (**Debate**)
+*   **Co-Ed Schools**
+*   Students of all genders are educated together in state schools.*   **+5%** Dependents Income
+*   **鈭?0%** Bureaucracy cost of Education*    Public Schools*    Women in the Workplace*   Boys and Girls (**Debate**)
+*   **Single-Sex Education**
+*   The state maintains parallel education systems segregated by sex.*   **+10%** Bureaucracy cost of Education*    Religious Schools
+*   **State Anti-Clericalism**
+*   The state engages in active efforts to remove religious influence from state affairs, bringing it into active opposition with the religious establishment.*   **鈭?0%** Political Strength of Clergymen
+*   **+10%** Radicals from Political Movements*    State Religion
+*    Freedom of Conscience
+*    Total Separation*    Total Separation Other possible
+
+Stance on  State Atheism is greater than neutral*   Anti-Anti-Clericalism (**Debate**)
+*   **Voting Age of 18**
+*   The minimum age to vote in elections is set at 18.*   **+10** Political Strength per vote
+*   **鈭?5** Authority*    Census Suffrage
+*    Universal Suffrage*    Universal Suffrage or 
+
+Other conditions
+
+Approval of parent law is at least 2*   Follies of Youth (**Debate**)
+*   **Voting Age of 21**
+*   The minimum age to vote in elections is set at 21.*   **+5** Political Strength per vote
+*   **+25** Authority*    Universal Suffrage
+*   **Voting Age of 25**
+*   The minimum age to vote in elections is set at 25.*   **鈭?** Political Strength per vote
+*   **+50** Authority*    Census Suffrage
+*   **Voter Suppression Policies**
+*   Despite nominal universal suffrage, the electoral system presents barriers to voting which disproportionally affect the lower classes.*   **鈭?0** Political Strength per vote
+*   **+10** Political Strength from Literate Pops' Votes*    Universal Suffrage*    Wealth Voting Conditions
+
+*   Opinion of  Universal Suffrage is less than neutral*   Too Much Democracy? (**Debate**)
+*   **Homestead Acts**
+*   The state provides official avenues for settlers to acquire ownership of plots of public land in unincorporated territories.*   **+25%** Migration Attraction in Unincorporated States
+*   **鈭?** Acceptance from no shared Heritage Traits*    Homesteading*    Frontier Colonization*   The [State] Homestead Act (**Debate**)
+*   **Extraterritoriality Rights**
+*   Agricultural investors based in foreign countries are granted an exemption from certain domestic laws, instead being subject to the law of their own countries.*   **鈭?%** Influence
+*   **鈭?0%** Leverage resistance*    Commercialized Agriculture*    Laissez-Faire Other conditions
+
+Country is not a Great Power or Major Power*   Foreign Farm Acquisitions, Inc. (**Debate**)
+*   **Open Legal Questions**
+*   The formulation of this law presents several legal questions regarding the applicability of domestic versus foreign law, raising fears of costly legal conflicts amongst foreign investors.*   **鈭?0%** Bureaucracy
+*   **+2%** Loan interest rate*    Laissez-Faire Never[2]
+*   **Industrial Socialization**
+*   Certain businesses with over a hundred employees are liable to be nationalized or placed under the control of state-organized trade unions at will.*   **+10%** Minimum Worker-Owned Heavy Industries building levels
+*   **+10%** Minimum Worker-Owned Military Industries building levels
+*   **+10%** Minimum Worker-Owned Mines building levels
+*   **+10%** Minimum Worker-Owned Private Infrastructure building levels
+*   **鈭?5%** Nationalization Compensation
+*   **+3%** Loan interest rate*    Corporate State*    Cooperative Ownership*   Socialization (**Debate**)
+*   **Shop Councils**
+*   Certain small businesses are amalgamated together under state-organized shop councils, typically made up of their former owners.*   **+10%** Minimum Worker-Owned Light Industries building levels
+*   **+10%** Minimum Worker-Owned Arts Buildings building levels
+*   **鈭?5%** Nationalization Compensation
+*   **+1%** Loan interest rate*    Interventionism
+*   **Foreign Investment Seizures**
+*   Foreign-owned enterprises are liable to be nationalized or placed under the control of state-organized trade unions at will.*   **鈭?5%** Cost for Nationalization
+*   **+5%** Loan interest rate*    Protectionism
+*   **State Redemption Payments**
+*   In return for the state compensating their former landlords, former serfs are required to pay a special tax.*   **鈭?0%** Agriculture Tax Income
+*   **鈭?0%** Ranching Tax Income
+*   **鈭?0%** Plantation Tax Income
+*    Taxation levels: 
+    *   **Very Low**: **+0.03** Land Tax
+    *   **Low**: **+0.06** Land Tax
+    *   **Medium**: **+0.09** Land Tax
+    *   **High**: **+0.12** Land Tax
+    *   **Very High**: **+0.15** Land Tax*    Tenant Farmers
+*    Commercialized Agriculture
+*    Homesteading
+*    Peasant Proprietorship*    Serfdom*   Purchasing Emancipation (**Stall**)
+*   **Individual Redemption Payments**
+*   The financial burden for the abolition of serfdom has been placed directly on individual serfs, binding them in contracts directly with their former landlord.*    Serfdom
+*   **Provided School Supplies**
+*   The education system directly purchases school supplies with tax funds, offering them as needed to students and teachers.*   **+5%** Bureaucracy cost of Education
+*   **+10%** Dependents Income*    Compulsory Primary School
+*    Religious Schools
+*    Public Schools*    Compulsory Primary School*   Pen and Paper (**Stall**)
+*   **Unfunded School Supplies**
+*   The education system requires the families of students to purchase school supplies on an individual basis.*   **鈭?%** Bureaucracy cost of Education
+*   **鈭?%** Dependents Income*    Private Schools
+*   **Workhouse Regulations**
+*   Regulations are placed upon working conditions and hours spent in workhouses.*   **+10%** Political strength when receiving welfare
+*   **鈭?0%** Dangerous Working Conditions
+*   **鈭?0%** Bureaucracy cost of Social Security*    Poor Laws*    Regulatory Bodies*   Prisons of the Poor (**Stall**)
+*   **Nativist Labor Regulations**
+*   Labor regulations are designed to encourage the employment of native-born citizens, and limit opportunities for foreign labor.*    No Migration Controls
+*    Migration Controls*    Migration Controls*   Foreign Competition (**Stall**)
+*   **Preserved Bureaucratic Class**
+*   Recent bureaucratic reforms have left the pre-reform structures largely intact. A sizable portion of high-ranking bureaucrats are holdovers from the previous system.*   Sponsoring Interest Group:
+*   **+15%** Interest Group Political Strength*    Hereditary Bureaucrats
+*    Appointed Bureaucrats
+*    Elected Bureaucrats*    Hereditary Bureaucrats[3]*   Red Tape (**Stall**)
+*   **Restricted Colonial Outsourcing**
+*   Regulations have been put in place to protect domestic workers from competition with cheap colonial labor.*   **鈭?5%** Colony Growth Speed
+*   **鈭?%** Throughput in Unincorporated States*    Colonial Exploitation
+*    Colonial Resettlement*    Regulatory Bodies*   Colonial Outsourcing (**Stall**)
+*   **Church-Organized Schools**
+*   The public school system is largely built atop existing structures established by religious authorities. The system preserves many attributes of religious schooling.*   **+10%** Political Strength of Clergymen
+*   **+5%** Conversion
+*   **鈭?%** Education Institution Fervor*    Public Schools*    Religious Schools*   School Organization (**Stall**)
+*   **Secularized School System**
+*   The public school system has been built from the ground up as a secular institution, curtailing the influence of religious authorities in education.*    Public Schools

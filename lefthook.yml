@@ -1,0 +1,10 @@
+# pre-commit 守卫（lefthook）：提交前机械检查，违规即拦截
+# 安装/更新钩子：npx -y lefthook install（或安装 lefthook 后 lefthook install）
+pre-commit:
+  commands:
+    decode-residue:
+      run: node tools/check-decode-residue.mjs
+    region-lists:
+      run: node tools/check-region-lists.mjs
+    tab-registry:
+      run: node tools/check-tabs.mjs

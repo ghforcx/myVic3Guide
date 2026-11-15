@@ -1,0 +1,453 @@
+.country-detail-overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 14px 0;
+  padding: 10px;
+  border: 1px solid rgba(200, 164, 91, 0.22);
+  border-radius: 8px;
+  background: var(--panel-glass-strong);
+}
+
+.country-overview-card {
+  min-width: 0;
+  padding: 8px 9px;
+  border: 1px solid rgba(112, 172, 222, 0.25);
+  border-radius: 6px;
+  background: rgba(27, 49, 64, 0.7);
+}
+
+.country-overview-label {
+  display: block;
+  color: var(--muted);
+  font-size: var(--text-xs);
+}
+
+.country-overview-value {
+  min-width: 0;
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+}
+
+.country-overview-value .link-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.country-detail-tabs {
+  display: flex;
+  gap: 6px;
+  margin: 12px 0 14px;
+  padding: 4px;
+  overflow-x: auto;
+  border: 1px solid rgba(200, 164, 91, 0.24);
+  border-radius: 7px;
+  background: var(--panel-glass-strong);
+  scrollbar-width: thin;
+}
+
+.country-detail-tabs button {
+  flex: 0 0 auto;
+  min-height: 32px;
+  padding: 5px 11px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: transparent;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.country-detail-tabs button:hover,
+.country-detail-tabs button[aria-selected="true"] {
+  border-color: var(--accent);
+  background: rgba(200, 164, 91, 0.16);
+  color: var(--ink);
+}
+
+.country-detail-tab-panel {
+  min-width: 0;
+}
+
+.country-detail-tab-panel h4 {
+  margin: 16px 0 8px;
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+}
+
+.country-detail-placeholder {
+  padding: 16px 0;
+}
+
+.country-detail-data-status {
+  margin: 0 0 10px;
+  color: var(--muted);
+  font-size: var(--text-sm);
+}
+
+.country-detail-data-status.is-unavailable {
+  color: #d79b83;
+}
+
+.country-starting-technology-tree { display: grid; gap: 14px; margin-top: 14px; }
+.country-starting-technology-era { padding: 10px; border: 1px solid rgba(200, 164, 91, 0.28); border-radius: 7px; background: rgba(27, 49, 64, 0.24); }
+.country-starting-technology-era > h4 { margin: 0 0 9px; color: var(--ink); }
+.country-starting-technology-categories { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.country-starting-technology-category { min-width: 0; }
+.country-starting-technology-category h5 { margin: 0 0 6px; color: var(--ink-muted); font-size: var(--text-sm); }
+.country-starting-technology-list { display: grid; gap: 5px; }
+.country-starting-technology-list a { display: flex; align-items: center; gap: 6px; min-width: 0; padding: 5px 6px; border: 1px solid; border-radius: 5px; text-decoration: none; overflow-wrap: anywhere; }
+.country-starting-technology-researched { border-color: rgba(143, 189, 114, 0.68); color: #a9d68a; background: rgba(83, 119, 69, 0.18); }
+.country-starting-technology-unresearched { border-color: rgba(149, 157, 159, 0.36); color: var(--muted); background: rgba(75, 78, 78, 0.14); }
+.country-starting-technology-icon { width: 22px; height: 22px; flex: 0 0 22px; object-fit: contain; }
+
+.country-starting-law-columns { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; align-items: start; }
+
+.country-starting-law-category {
+  min-width: 0;
+}
+
+.country-starting-law-category > h4 {
+  margin: 0 0 8px;
+  color: var(--ink-muted);
+  font-size: var(--text-sm);
+}
+
+.country-starting-law-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.country-starting-law-card {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+  padding: 9px;
+  border: 1px solid rgba(200, 164, 91, 0.22);
+  border-radius: 6px;
+  background: var(--panel-glass-strong);
+}
+
+.country-starting-law-card > div {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.country-starting-law-card strong {
+  overflow-wrap: anywhere;
+}
+
+.country-starting-law-source {
+  color: var(--muted);
+  font-size: var(--text-xs);
+}
+
+.country-starting-law-amendments { color: var(--accent); font-size: var(--text-xs); }
+.country-starting-law-amendment-link { display: inline-block; padding: 2px 7px; border: 1px solid rgba(200, 164, 91, 0.55); border-radius: 5px; background: rgba(200, 164, 91, 0.12); color: var(--accent); text-decoration: none; }
+.country-starting-law-amendment-link:hover, .country-starting-law-amendment-link:focus-visible { border-color: var(--accent); background: rgba(200, 164, 91, 0.22); color: var(--ink); }
+.country-technology-era-complete { margin: 10px 0; color: var(--accent); }
+
+.country-incorporation-calculator-button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border: 1px solid rgba(200, 164, 91, 0.45);
+  border-radius: 5px;
+  background: rgba(200, 164, 91, 0.12);
+  color: var(--accent);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.country-incorporation-calculator-button:hover { background: rgba(200, 164, 91, 0.22); }
+.country-region-calculator-entry { margin: 0 0 10px; }
+
+.country-starting-law-icon {
+  width: 30px;
+  height: 30px;
+  flex: 0 0 30px;
+  object-fit: contain;
+}
+
+.country-diplomacy-section {
+  margin-top: 14px;
+}
+
+.country-diplomacy-section h4 {
+  margin: 0 0 7px;
+}
+
+.country-diplomacy-list {
+  display: grid;
+  gap: 6px;
+}
+
+.country-diplomacy-record {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 0;
+  padding: 8px 9px;
+  border: 1px solid rgba(200, 164, 91, 0.18);
+  border-radius: 6px;
+  background: var(--panel-glass-strong);
+}
+
+.country-starting-law-columns .country-starting-law-card {
+  min-height: 48px;
+}
+
+.country-diplomacy-target {
+  min-width: 0;
+}
+
+.country-diplomacy-kind {
+  flex: 0 0 auto;
+  max-width: 54%;
+  color: var(--ink-muted);
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.country-diplomacy-kind.is-positive {
+  color: #a9d68a;
+}
+
+.country-diplomacy-kind.is-negative {
+  color: #d79b83;
+}
+
+.country-flavor-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.country-flavor-tabs button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 1px solid rgba(200, 164, 91, 0.22);
+  border-radius: 6px;
+  background: var(--panel-glass-strong);
+  color: var(--ink-muted);
+}
+
+.country-flavor-tabs button:hover,
+.country-flavor-tabs button[aria-selected="true"] {
+  border-color: var(--accent);
+  background: rgba(200, 164, 91, 0.16);
+  color: var(--ink);
+}
+
+.country-flavor-tabs button span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.country-flavor-tabs button small {
+  color: var(--muted);
+}
+
+.country-detail-reserved-slot {
+  min-height: 0;
+}
+
+.country-interest-group-tabs {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.country-interest-group-tab {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  min-width: 0;
+  padding: 7px 4px 6px;
+  border: 1px solid rgba(200, 164, 91, 0.22);
+  border-radius: 6px;
+  background: var(--panel-glass-strong);
+  color: var(--ink-muted);
+  font-size: var(--text-xs);
+}
+
+.country-interest-group-tab:hover,
+.country-interest-group-tab[aria-selected="true"] {
+  border-color: var(--accent);
+  background: rgba(200, 164, 91, 0.16);
+  color: var(--ink);
+}
+
+.country-interest-group-icon {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.country-interest-group-tab-label {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+  max-width: 100%;
+}
+
+.country-interest-group-tab-name {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.country-interest-group-panel {
+  padding: 12px;
+  border: 1px solid rgba(200, 164, 91, 0.3);
+  border-radius: 7px;
+  background: var(--panel-glass-strong);
+}
+
+.country-interest-group-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.country-interest-group-panel-head h4 {
+  margin: 0;
+  color: var(--ink);
+  font-size: var(--text-md);
+}
+
+.country-interest-group-status-badges { display: flex; justify-content: center; flex-wrap: wrap; gap: 3px; }
+.country-interest-group-status-badge { padding: 1px 4px; border: 1px solid rgba(200, 164, 91, 0.5); border-radius: 3px; color: var(--accent); font-size: 10px; line-height: 1.2; }
+.country-interest-group-status-badge.is-vc { border-color: rgba(112, 172, 222, 0.55); color: #9bc9e5; }
+
+.country-interest-group-panel-actions { display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 7px; }
+.country-interest-group-detail-link { color: var(--accent); font-size: var(--text-xs); text-decoration: none; }
+.country-interest-group-detail-link:hover, .country-interest-group-detail-link:focus-visible { text-decoration: underline; text-underline-offset: 2px; }
+.country-interest-group-panel .interest-group-trait-slot-list { grid-template-columns: 1fr; gap: 6px; margin-top: 0; }
+.country-interest-group-panel .interest-group-trait-slot { min-height: 0; padding: 6px; }
+.country-interest-group-panel .interest-group-trait-slot.is-unhappy { order: 3; }
+.country-interest-group-panel .interest-group-trait-slot.is-happy { order: 2; }
+.country-interest-group-panel .interest-group-trait-slot.is-loyal { order: 1; }
+.country-flag-variant-section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.country-flag-variant-section-heading h3 { margin-bottom: 8px; }
+
+.country-interest-group-panel .field-grid {
+  margin-top: 8px;
+}
+
+.country-interest-group-potential {
+  margin-top: 12px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(200, 164, 91, 0.2);
+}
+
+.country-interest-group-potential summary {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.country-interest-group-potential-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.country-interest-group-potential-item {
+  padding: 9px;
+  border: 1px solid rgba(200, 164, 91, 0.18);
+  border-radius: 6px;
+  background: rgba(52, 49, 45, 0.72);
+}
+
+.country-interest-group-potential-item .mini-grid {
+  margin-top: 8px;
+}
+
+@media (max-width: 760px) {
+  .country-detail-overview {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .country-detail-tabs {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+
+  .country-interest-group-tabs {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .country-starting-law-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .country-starting-law-columns { grid-template-columns: 1fr; }
+
+  .country-starting-technology-categories { grid-template-columns: 1fr; }
+
+  .country-diplomacy-record {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .country-diplomacy-kind {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .country-interest-group-panel-actions { justify-content: flex-start; }
+}
+.country-interest-group-potential-trigger {
+  margin: 0 0 8px;
+  color: var(--ink-muted);
+}
+
+.country-interest-group-flavor-list {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.country-interest-group-flavor-card {
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 88%, var(--accent) 12%);
+}
+
+.country-interest-group-flavor-card .mini-grid {
+  margin-top: 8px;
+}
+
+.country-interest-group-potential-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 2px 7px;
+  border: 1px solid rgba(200, 164, 91, 0.55);
+  border-radius: 5px;
+  background: rgba(200, 164, 91, 0.1);
+  color: var(--accent);
+  text-decoration: none;
+  line-height: 1.25;
+}
+
+.country-interest-group-potential-link:hover,
+.country-interest-group-potential-link:focus-visible {
+  border-color: var(--accent);
+  background: rgba(200, 164, 91, 0.18);
+}

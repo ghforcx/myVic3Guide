@@ -1,0 +1,20 @@
+{
+ "law_hereditary_bureaucrats": "\n\t\tNOR = {\n\t\t\tc:AUS ?= this # For the Austrian Empire and its subjects\n\t\t\tAND = {\n\t\t\t\texists = c:AUS\n\t\t\t\tis_subject_of = c:AUS\n\t\t\t}\n\t\t",
+ "law_crownland_diets": "\n\t\tOR = {\n\t\t\tc:AUS ?= this # For the Austrian Empire and its subjects\n\t\t\tAND = {\n\t\t\t\texists = c:AUS\n\t\t\t\tis_subject_of = c:AUS\n\t\t\t}\n\t\t",
+ "law_state_religion": " # Turkey should only unlock this as a possibility if it abolishes the Millet System, likewise other Muslim nations\n\t\tNOR = {\n\t\t\thas_law = law_type:law_millet_system\n\t\t\thas_law = law_type:law_people_of_the_book\n\t\t",
+ "law_oligarchy": "\n\t\tNAND = {\n\t\t\tcountry_has_primary_culture = cu:romanian\n\t\t\tis_subject = yes\n\t\t",
+ "law_organic_regulation": "\n\t\tcountry_has_primary_culture = cu:romanian\n\t\tis_subject = ye",
+ "law_monarchy": "\n\t\tNOT = {\n\t\t\thas_law = law_type:law_colonial_administration\n\t\t",
+ "law_merchant_navy": "\n\t\tany_scope_state = {\n\t\t\tis_coastal = yes\n\t\t",
+ "law_professional_navy": "\n\t\tany_scope_state = {\n\t\t\tis_coastal = yes\n\t\t",
+ "law_diplomatic_navy": "\n\t\tany_scope_state = {\n\t\t\tis_coastal = yes\n\t\t",
+ "law_serfdom": "\n\t\tNOR = {\n\t\t\tc:AUS ?= this # Austria and the Danubian Principalities have manorialism instead\n\t\t\tAND = {\n\t\t\t\texists = c:AUS\n\t\t\t\tis_subject_of = c:AUS\n\t\t\t\tOR = {\n\t\t\t\t\tis_subject_type = subject_type_crown_land\n\t\t\t\t\tis_subject_type = subject_type_personal_union\n\t\t\t\t}\n\t\t\t\tc:AUS ?= { has_law = law_type:law_manorialism }\n\t\t\t}\n\t\t\tcountry_has_primary_culture = cu:romanian\n\t\t",
+ "law_manorialism": "\n\t\tOR = {\n\t\t\tc:AUS ?= this # For the Austrian Empire and its subjects\n\t\t\tAND = {\n\t\t\t\texists = c:AUS\n\t\t\t\tis_subject_of = c:AUS\n\t\t\t\tOR = {\n\t\t\t\t\tis_subject_type = subject_type_crown_land\n\t\t\t\t\tis_subject_type = subject_type_personal_union\n\t\t\t\t}\n\t\t\t\tc:AUS ?= { has_law = law_type:law_manorialism }\n\t\t\t}\n\t\t\tcountry_has_primary_culture = cu:romanian # Also for the Danubian principalities\n\t\t",
+ "law_tenant_farmers": "\n\t\tNOR = {\n\t\t\thas_law = law_type:law_latifundias\n\t\t\thas_law = law_type:law_expanded_latifundias\n\t\t",
+ "law_latifundias": "\n\t\tany_primary_culture = {\n\t\t\tOR = {\n\t\t\t\thas_discrimination_trait = language_hispanophone\n\t\t\t\thas_discrimination_trait = language_lusophone\n\t\t\t\thas_discrimination_trait = language_italian\n\t\t\t}\n\t\t}\n\t\thidden_trigger = {\n\t\t\tNOT = {\n\t\t\t\thas_variable = upgraded_latifundias_law_var\n\t\t\t}\n\t\t}\n\t\tNOT = {\n\t\t\thas_law = law_type:law_tenant_farmers\n\t\t",
+ "law_expanded_latifundias": "\n\t\tany_primary_culture = {\n\t\t\tOR = {\n\t\t\t\thas_discrimination_trait = language_hispanophone\n\t\t\t\thas_discrimination_trait = language_lusophone\n\t\t\t\thas_discrimination_trait = language_italian\n\t\t\t}\n\t\t}\n\t\thidden_trigger = {\n\t\t\thas_variable = upgraded_latifundias_law_var\n\t\t",
+ "law_peasant_proprietorship": "\n\t\tNOT = {\n\t\t\thas_law = law_type:law_homesteading\n\t\t}\n\t\tNOT = {\n\t\t\tcountry_is_colonial_or_company = yes\n\t\t}\n\t\tcapital ?= {\n\t\t\tis_in_geographic_region = geographic_region_old_world\n\t\t",
+ "law_homesteading": "\n\t\tNOT = {\n\t\t\thas_law = law_type:law_peasant_proprietorship\n\t\t}\n\t\tOR = {\n\t\t\tcountry_is_colonial_or_company = yes\n\t\t\tcapital ?= {\n\t\t\t\tis_in_geographic_region = geographic_region_new_world\n\t\t\t}\n\t\t",
+ "law_women_in_the_fields": "\n\t\tc:MON ?= this\n\t\tNOR = {\n\t\t\thas_law = law_type:law_no_womens_rights\n\t\t\thas_law_or_variant = law_type:law_women_own_property\n\t\t\thas_law_or_variant = law_type:law_women_in_the_workplace\n\t\t\thas_law_or_variant = law_type:law_womens_suffrage\n\t\t",
+ "law_chiefs_distribute_aid": "\n\t\tc:MON ?= thi"
+}

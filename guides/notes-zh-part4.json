@@ -1,0 +1,30 @@
+{"name":"Azadi","zh":"• 需要以德里开局，然后用领土或附庸控制全部印度区域（孟买、德里、中印度、孟加拉、马德拉斯），包括港口。\n• 殖民时必须直接控制领土，否则会得到不可通行的地形。\n• 组建 {{flag|India}} 不会使成就失效，前提是由 {{flag|Hindustan}}（印度斯坦）组建。\n• 其实可以以 EIC（东印度公司）开局：提高税收等稳定度下跌，期间尽量吞并附庸。内战事件即将弹出时，把所有可能的省份交给印度斯坦，并在事件中选择扮演印度斯坦。存档重开就能看到成就可以解锁。\n• 成就名是波斯语「自由/独立」。\n{{icon|poeb|w=36px}}"}
+{"name":"Be Prepared!","zh":"{{flag|Montenegro}}（黑山）靠独特法律 {{law|Šef Paternalism}}（家长式首领）开局就有 4 级 {{iconify|Social Security|institution}}（社会保障），因此只需要触发 [[harvest condition|收获条件]]。"}
+{"name":"Caste Away","zh":"在印度的所有英国附属国都符合成就条件。"}
+{"name":"Cosmopolitan","zh":"（无提示）"}
+{"name":"Folkhemmet","zh":"组建 {{flag|Scandinavia}} 不影响成就。<br>最终的卫生系统机构等级需要 {{technology|Antibiotics}}（抗生素）——5 级社会科技。"}
+{"name":"On the Edge","zh":"{{icon|poeb|w=36px}}"}
+{"name":"Our Words are Backed…","zh":"• 甘地会在 1910 年或之后的某个时点出现（前提是存在印度泛民族主义运动）。你需要扮演 {{subject flag|East India|Great Britain|subject=BIC republic}} [[East India|英属东印度公司]] 并保持英国附属国身份才有资格。不要完成「印度自治」日志——那会把你的国家 tag 从 BIC 改成 BHT，失去触发甘地事件的资格。\n• 另一种玩法：扮演 {{subject flag|South Africa|Great Britain|subject=SAF ensign}} [[South Africa|开普殖民地]]，1893 年起若祖鲁兰或东开普有南亚传承人口，甘地会通过事件出现。另外，你的最高宗主必须与 {{subject flag|East India|Great Britain|subject=BIC republic}} [[East India|英属东印度公司]] 相同。如果 AI {{flag|Great Britain}} 在你拿到甘地之前放走或解散了东印度，成就就不可能了。若没发生，记得必须通过 {{law|Multiculturalism}} 这类法律才能让他成为统治者。\n• 两种情况下，甘地都作为 {{icon|Intelligentsia|3=1}} 知识分子集团的 {{ideology|Humanitarian leader}}（人道主义者）煽动者出现，并大概率支持 {{ideology|Liberal}}（自由派）运动。\n{{icon|poeb|w=36px}}"}
+{"name":"ProleCorp","zh":"（无提示）"}
+{"name":"The Man Who Would be King","zh":"• 昆都士有可能尝试入侵喀布尔。重开到发生为止，然后反入侵。\n• 另一个选项：被昆都士攻打后成为 {{flag|Persia}} 的附属国，用一项义务让波斯参战，一起入侵喀布尔。\n• 之后专注军事科技（线列步兵）、造军队和工业就稳了。\n• 一直盯紧喀布尔的知识分子领袖，直到刷出事件；不是哈兰就重开\n{{icon|soib|w=36px}}"}
+{"name":"The Real Movement","zh":"• 共产主义运动需要研究 {{technology|Socialism}}（社会主义）。\n• 高城市化州、{{icon|laborers|3=1}} 劳工和 {{icon|machinists|3=1}} 机械师提供更多支持。\n• {{icon|Literacy|3=1}} 识字率、{{icon|radical|3=1}} 激进主义和低 {{iconify|standard of living}}（生活水平）也会提高人口吸引力（不只对共产主义运动）。"}
+{"name":"All Quiet on the Western Front","zh":"方法很多。例如开局大清，恶化与俄国的关系然后宣战。尽量多召征召兵，所有军队设为进攻。然后等着就行。"}
+{"name":"Champagne Socialist","zh":"最好与「巴黎公社」成就连做。先删光国内全部葡萄园，再完全释放 {{flag|Occitania}} 会有帮助（他们对葡萄酒有痴迷）。或者与 {{flag|Spain}}、{{flag|Italy}} 签贸易协定——意大利文化、巴斯克和加泰罗尼亚也痴迷葡萄酒。\n{{icon|cocb|w=36px}}"}
+{"name":"Fordlandia","zh":"由于需要的是 GDPPC 前十（而非全球 GDP 总量），而引擎工业在切到自动灌溉后非常赚钱，任何国家都 easily 可行。垄断橡胶、垄断非洲是快速达成的捷径。\n注意公司需要研究内燃机并有 5 级 motors（火车）工业，不是汽车工业。\n{{icon|cocb|w=36px}}"}
+{"name":"Franchising","zh":"条件是别的国家有你的公司的区域总部，不是反过来。任何有盈利的公司，在一个人口体量合理的国家拿到投资权后即可轻松完成。\n{{icon|cocb|w=36px}}"}
+{"name":"It's a Blockade!","zh":"游戏进行 30-40 年后，任何列强的市场首都都会有足够的贸易中心。伦敦多半是第一个。"}
+{"name":"Swiss Bank Account","zh":"{{collapse list|投机取巧法|*（此方法很可能已失效。1.9.6 起你无法把两个瑞士赠给 {{flag|Sardinia-Piedmont}} 或任何人，因为没人想要它们。变体打法写在最后。）\n\n** 开局宣布对意大利和奥克塔尼亚的利益，对两个州用征募努力法令并征召最大量部队，然后把总参谋部排进民族主义研究队列。\n\n** 利益建立后，用集团大使馆条约从对你持保护态度的任何主权帝国集团领袖那里拿资金转移（目标约 2k）。条约一签，对 {{flag|Sardinia-Piedmont}} 发起外交博弈征服其全部州。对撒丁-皮埃蒙特的战争，撑到总参谋部研究完成再反击成功率更高；有国民民兵的征召兵，你应该能把对方兵力消耗得比你自己掉得多。\n\n** 战胜后整合萨伏依，对波斯设利益。从 {{flag|Bahrain}} 手里征服巴林霍尔木兹。拿下该州、整合萨伏依并研究民族主义后，把首都迁到萨伏依，释放 {{flag|Sardinia-Piedmont}} 为附属国并授予撒丁和普罗旺斯，然后用「交换州」互动把东西瑞士给它。对 {{flag|France}} 宣战（必要时先驱逐外交官），他们应该会把「征服萨伏依」设为主要战争目标。退让接受其要求，你的首都就会迁到仅剩的州：霍尔木兹。此时你的 GDP 应该 >1 万，且每年有约 2k 的资金转移条约收入，成就就会弹出。\n\n* 另一种打法：与除 {{flag|France}} 外的所有邻国交好。吞并 {{flag|Sardinia-Piedmont}} 建立实力基础后，打赢法国并强制最大额资金转移（最好超过 10 万），然后释放撒丁，5 年内把两个瑞士拖到崩溃。GDP 可以压到 100 万以下。}}"}
+{"name":"Systembolaget","zh":"开局瑞典：建一座食品工业，把农场从酿酒切走，然后在建筑面板点它的「专卖」按钮。\n{{icon|cocb|w=36px}}"}
+{"name":"Venice, Vidi, Vici","zh":"开局 {{flag|Austria}}（奥地利）。在威尼斯建约 100 座 {{iconify|Trade Center|building}}（贸易中心）（少一点也行，贸易中心最多的国家是英国，开局约 70 座）。释放并切换到 {{flag|Venice}}。"}
+{"name":"Wall of Text","zh":"开局大清。与英国谈判一项包含：同盟、贸易特权、投资权、资金转移、货物转移等的条约。凑齐 10 条或以上的条款即可。"}
+{"name":"Yes, We Have Bananas!","zh":"最好与 Banana Republic 成就连做。<br>\n{{flag|America}} 不是唯一可用的国家，但远最容易——开局就拥有建立公司所需的州。征服 {{flag|Brazil}} 和尼日尔的州也有帮助：它们可能是最大的 {{icon|fruit|3=1}} 水果产地，既增加你的产出又消灭竞争。\n{{icon|cocb|w=36px}}"}
+{"name":"Biedermeier","zh":"组建 {{flag|Germany}}、{{flag|Central Europe}} 或 {{flag|Danubian State}}（大奥地利）会阻止本成就。"}
+{"name":"Brotherhood and Unity","zh":"（无提示）"}
+{"name":"David Slays Goliath","zh":"（无提示）"}
+{"name":"EXACTLY 100!!!","zh":"狂热度的来源：民族主义的公民权法律（{{law|Ethnostate}} 或 {{law|National Supremacy}}）、高 [[literacy|识字率]]、大量 {{icon|academics|3=1}} 学者以及颁布 {{law|Public Schools}}。\n现实中狂热的主要驱动力是识字率（{{icon|academics|3=1}} 学者 25 + 高识字率 25 + {{law|Public Schools}} 25），光这三项就有 75/100，是最重要的部分。剩余 25 点的 easiest 补法是在战争中损失主流文化人口——会产生海量狂热。它是按百分比计算的，所以小而识字率高的国家（如意大利小国）是好的开局人选。"}
+{"name":"I’m Feeling Hungary","zh":"{{icon|nawb|w=36px}}"}
+{"name":"Prussia of the Balkans","zh":"玩保加利亚最简单的方式：开局选 {{flag|Russia}}（俄国），立刻要求奥斯曼解放他们（如果同时附加一堆其他解放要求，对方多半会直接退让不战）。他们独立后会弹出切换国家的事件，但由于你在玩俄国，切换前应该把多布罗加剩余部分交易给他们（他们总会接受）。这条路线比直接释放稍好，因为能多拿一点地。或者也可以从奥斯曼手里征服保加利亚诸州后释放并切换——这样能避开 {{law|Slave Trade}}（奴隶贸易），不过释放前最好先废掉 {{law|Serfdom}}（农奴制）和 {{law|Traditionalism}}（传统主义）。\n\n之后就正常玩保加利亚。抱紧俄国大腿确保没人敢动你（其实本来概率也不大）。目标是先把经济攒够完成「巴尔干的普鲁士」日志；可以选择南斯拉夫路线，或者在大部分欧洲奥斯曼领土上白拿一堆宣称（对成就更有利）。\n\n用你的大军 + 俄国揍奥斯曼，拿更多地发展经济，直到成为列强。\n\n'''另一种'''：在一次 {{flag|Austria}}（奥地利）大campaign里组建 {{flag|Danubian State}}（多瑙河国家）时顺路完成。途中或最后拿下保加利亚本土州。必要时揍瘫并巴尔干化 {{flag|Prussia}}/{{flag|North German Federation}}/{{flag|Germany}}。然后释放并切换到 {{flag|Bulgaria}}。之后成就很简单。\n{{icon|nawb|w=36px}}"}
+{"name":"Quill and Bayonet","zh":"需要小市民掌权 + 有秘密警察和专制制才能触发事件。然后完成 5 项要求中的 4 项即可。可以 easy cheese：先把与教皇国的关系刷到 50 并通过任命官僚，事件触发前就完成 4 项里的 2 项。事件触发前把所有建筑切到最低生产方式，事件开始后再切回来，同时补贴所有工业并最大化建造和兵力，补齐另外两项。也可以用你的大军吞并一些领土确保达到 GDP 目标。\n{{icon|nawb|w=36px}}"}
+{"name":"Sorbia is Serbia","zh":"{{flag|Serbia}}（塞尔维亚）和 {{flag|Montenegro}}（黑山）都是可选开局。可与「David Slays Goliath」成就连做。这样反而更容易——黑山有大量军事 buff，有助于征服德国。"}
+{"name":"Teamkiller","zh":"允许组建塞尔维亚和黑山（合并国）。触发「巴尔干同盟」的条件见潜在日志面板。「战争战利品」日志在巴尔干战争后触发。以前要求不完全拥有你的文化本土才能触发，现在似乎不再如此。\n{{icon|nawb|w=36px}}"}
+{"name":"Viribus Unitis","zh":"（无提示）"}
